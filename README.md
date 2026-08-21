@@ -1,5 +1,7 @@
 # PERSONAIZER MCP Server
 
+[![smithery badge](https://smithery.ai/badge/personaizer/personaizer-chat-and-rag)](https://smithery.ai/servers/personaizer/personaizer-chat-and-rag)
+
 Create and operate AI chat personas for websites — over [MCP](https://modelcontextprotocol.io). Search a persona's knowledge base, chat with it, upload knowledge, and build brand-new personas from a URL, all from any MCP-compatible client (Claude Desktop, Claude Code, Cursor, etc.).
 
 This repository is a directory listing for the hosted PERSONAIZER MCP server — the server itself is remote (Streamable HTTP), so there's no code to clone or run locally.
