@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.PersonAIzer/mcp",
+  "title": "PERSONAIZER",
+  "description": "Create and operate AI chat personas for websites over MCP — search, chat, upload knowledge, build",
+  "websiteUrl": "https://personaizer.com/developers/mcp",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://sessions.personaizer.com/mcp",
+      "headers": [
+        {
+          "name": "X-Api-Key",
+          "description": "PersonAIzer API key — a persona secret key (pa_...) for search_knowledge/chat/upload_knowledge_docs, or an account key (ak_...) for create_persona/check_persona_status. Get one from your PersonAIzer dashboard.",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
